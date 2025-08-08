@@ -1,3 +1,6 @@
+# Menta-ray
+ Gamified learning application
+
 # menta_ray
 
 A new Flutter project.
