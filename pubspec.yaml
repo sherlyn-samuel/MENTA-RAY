@@ -25,7 +25,14 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/bg1sam.jpg
+    - assets/images/tempwhale.jpeg
+  fonts:
+    - family: Pixellari
+      fonts:
+        - asset: assets/fonts/Pixellari.ttf
+
+  
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

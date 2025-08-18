@@ -1,8 +1,12 @@
-// ignore_for_file: unnecessary_string_escapes
-
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized(); 
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.landscapeRight,
+    DeviceOrientation.landscapeLeft,
+  ]);
   runApp(const MyApp());
 }
 
@@ -30,32 +34,33 @@ class LoginScreen extends StatelessWidget {
         children: [
           // Background image
          Image.asset(
-  'assets/images/bg1sam.jpg',
+  'assets/images/tempwhale.jpeg',
   fit: BoxFit.cover,
 ),
 
-          // Transparent overlay
+         
           Container(
-            // ignore: deprecated_member_use
+            
             color: Colors.black.withOpacity(0.5),
           ),
-          // Login form
+          // Login form from here
           Center(
             child: Padding(
               padding: const EdgeInsets.all(32.0),
               child: Container(
                 padding: const EdgeInsets.all(24),
                 decoration: BoxDecoration(
-                   color: Colors.white.withOpacity(0.85),
+                   color: Colors.white.withOpacity(0.5),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     const Text(
-                      "Login",
+                      "LOGIN",
                       style: TextStyle(
-                        fontSize: 28,
+                        fontFamily: 'Pixellari',
+                        fontSize: 30,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
