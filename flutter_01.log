@@ -1,0 +1,115 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+StateError: Bad state: No element
+
+```
+#0      Stream.first.<anonymous closure> (dart:async/stream.dart:1654:11)
+#1      _rootRun (dart:async/zone.dart:1517:47)
+#2      _CustomZone.run (dart:async/zone.dart:1422:19)
+#3      _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+#4      _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.dart:434:13)
+#5      _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:444:7)
+#6      _BufferingStreamSubscription._close (dart:async/stream_impl.dart:333:7)
+#7      _SyncBroadcastStreamController._sendDone.<anonymous closure> (dart:async/broadcast_stream_controller.dart:411:22)
+#8      _BroadcastStreamController._forEachListener (dart:async/broadcast_stream_controller.dart:333:15)
+#9      _SyncBroadcastStreamController._sendDone (dart:async/broadcast_stream_controller.dart:410:7)
+#10     _BroadcastStreamController.close (dart:async/broadcast_stream_controller.dart:274:5)
+#11     _AsBroadcastStreamController.close (dart:async/broadcast_stream_controller.dart:522:24)
+#12     _rootRun (dart:async/zone.dart:1517:47)
+#13     _CustomZone.run (dart:async/zone.dart:1422:19)
+#14     _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+#15     _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.dart:434:13)
+#16     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:444:7)
+#17     _BufferingStreamSubscription._close (dart:async/stream_impl.dart:333:7)
+#18     _SinkTransformerStreamSubscription._close (dart:async/stream_transformers.dart:91:11)
+#19     _EventSinkWrapper.close (dart:async/stream_transformers.dart:21:11)
+#20     _StringAdapterSink.close (dart:convert/string_conversion.dart:241:11)
+#21     _Utf8ConversionSink.close (dart:convert/string_conversion.dart:301:20)
+#22     _ErrorHandlingAsciiDecoderSink.close (dart:convert/ascii.dart:268:15)
+#23     _ConverterStreamEventSink.close (dart:convert/chunked_conversion.dart:79:18)
+#24     _SinkTransformerStreamSubscription._handleDone (dart:async/stream_transformers.dart:136:24)
+#25     _rootRun (dart:async/zone.dart:1517:47)
+#26     _CustomZone.run (dart:async/zone.dart:1422:19)
+#27     _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+#28     _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.dart:434:13)
+#29     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:444:7)
+#30     _BufferingStreamSubscription._close (dart:async/stream_impl.dart:333:7)
+#31     _SyncStreamControllerDispatch._sendDone (dart:async/stream_controller.dart:806:19)
+#32     _StreamController._closeUnchecked (dart:async/stream_controller.dart:652:7)
+#33     _StreamController.close (dart:async/stream_controller.dart:645:5)
+#34     _Socket._onData (dart:io-patch/socket_patch.dart:2911:21)
+#35     _rootRunUnary (dart:async/zone.dart:1546:13)
+#36     _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#37     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#38     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#39     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#40     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:798:19)
+#41     _StreamController._add (dart:async/stream_controller.dart:663:7)
+#42     _StreamController.add (dart:async/stream_controller.dart:618:5)
+#43     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:2330:33)
+#44     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:1639:18)
+#45     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)
+#46     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#47     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:128:13)
+#48     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:195:5)
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.29.3, on Microsoft Windows [Version 10.0.26100.4652], locale en-IN) [539ms]
+    [32m•[39m Flutter version 3.29.3 on channel stable at C:\Users\sherl\Downloads\flutter_windows_3.29.3-stable\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision ea121f8859 (4 months ago), 2025-04-11 19:10:07 +0000
+    [32m•[39m Engine revision cf56914b32
+    [32m•[39m Dart version 3.7.2
+    [32m•[39m DevTools version 2.42.3
+
+[32m[✓][39m Windows Version (11 Home Single Language 64-bit, 24H2, 2009) [3.8s]
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 35.0.1) [2.9s]
+    [32m•[39m Android SDK at C:\Users\sherl\AppData\Local\Android\Sdk
+    [32m•[39m Platform android-35, build-tools 35.0.1
+    [32m•[39m Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.6+-13391695-b895.109)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Chrome - develop for the web [135ms]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[32m[✓][39m Visual Studio - develop Windows apps (Visual Studio Community 2022 17.14.10) [135ms]
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    [32m•[39m Visual Studio Community 2022 version 17.14.36327.8
+    [32m•[39m Windows 10 SDK version 10.0.26100.0
+
+[32m[✓][39m Android Studio (version 2025.1.2) [5ms]
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.6+-13391695-b895.109)
+
+[32m[✓][39m VS Code (version 1.103.0) [3ms]
+    [32m•[39m VS Code at C:\Users\sherl\AppData\Local\Programs\Microsoft VS Code
+    [32m•[39m Flutter extension version 3.116.0
+
+[32m[✓][39m Connected device (3 available) [149ms]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26100.4652]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 138.0.7204.185
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 139.0.3405.86
+
+[32m[✓][39m Network resources [404ms]
+    [32m•[39m All expected network resources are available.
+
+[32m•[39m No issues found!
+```
