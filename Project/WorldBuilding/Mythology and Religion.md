@@ -1,0 +1,2 @@
+
+People follow both New and Old Religions. Since most religions predict great floods and doomsday, they still remain as a spiritual and communal anchor between people. The mermans have their own gods- They worship non-human forms. 

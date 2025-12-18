@@ -1,0 +1,1 @@
+[[City - Thungabhadra]] is a underwater warm ocean settlement, as such they trade in pearls and gold embedded in shark teeth (kintsugi repair style). They farm and export kelp, and they import seal milk. 
