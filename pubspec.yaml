@@ -57,7 +57,6 @@ flutter:
     - assets\audio\notification.mp3
     - assets\audio\water.mp3
     - assets\images\leaderboardicon.png
-    - .env
 
 
 
