@@ -39,20 +39,20 @@ This project was developed as a final-year B.E. Computer Science project at **Av
 
 ---
 
-## ✨ Features
+## 🪼 Features
 
-- 🔐 JWT-based secure authentication (Login / Signup)
-- 🧮 Math module with Easy / Medium / Hard difficulty levels
-- 🤟 ISL alphabet learning with animated pixel-art hand signs
-- 🤖 LLM-powered dynamic question generation via Gemini API
-- 📴 Offline fallback with local question banks
-- 🏆 Leaderboard and progress tracking
-- 👩‍👧 Parent/teacher analytics dashboard
-- 🎮 Underwater 2D game world with mascot and quest board
+- ⋆ JWT-based secure authentication (Login / Signup)
+- ⋆ Math module with Easy / Medium / Hard difficulty levels
+- ⋆ ISL alphabet learning with animated pixel-art hand signs
+- ⋆ LLM-powered dynamic question generation via Gemini API
+- ⋆ Offline fallback with local question banks
+- ⋆ Leaderboard and progress tracking
+- ⋆ Parent/teacher analytics dashboard
+- ⋆ Underwater 2D game world with mascot and quest board
 
 ---
 
-## 🛠 Tech Stack
+## 🪸 Tech Stack
 
 | Layer        | Technology                          |
 |--------------|-------------------------------------|
@@ -67,7 +67,7 @@ This project was developed as a final-year B.E. Computer Science project at **Av
 
 ---
 
-## 🏗 System Architecture
+## ⛵ System Architecture
 
 ```
 User Device (Android / Windows)
@@ -91,7 +91,7 @@ User Device (Android / Windows)
 
 ---
 
-## 🚀 Getting Started
+## 🗺️ Getting Started
 
 ### Prerequisites
 
@@ -318,7 +318,7 @@ CREATE TABLE player_state (
 
 ---
 
-## 🔌 API Endpoints
+## 🪸 API Endpoints
 
 | Method | Endpoint                  | Description                  |
 |--------|---------------------------|------------------------------|
@@ -342,26 +342,17 @@ CREATE TABLE player_state (
 |-----------|------------|
 | ![Math](assets/screenshots/math.png) | ![ISL](assets/screenshots/isl.png) |
 
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
 
 ---
 
 ## 👩‍💻 Team
 
-| Name | Roll No | GitHub |
+| Name | GitHub |
 |------|---------|--------|
-| Jeni Cyndrella Yazhini R | 22UEO022 | [@jeni](https://github.com/) |
-| Lakshika Mangai S | 22UEO029 | [@lakshika](https://github.com/) |
-| Sherlyn Samuel | 22UEO050 | [@sherlyn](https://github.com/) |
-| Vibhasha R | 22UEO061 | [@vibhasha](https://github.com/) |
+| Jeni Cyndrella Yazhini R | [@jeni](https://github.com/) |
+| Lakshika Mangai S | [@lakshika](https://github.com/) |
+| Sherlyn Samuel | [@sherlyn](https://github.com/) |
+| Vibhasha R | [@vibhasha](https://github.com/) |
 
 **Guide:** Dr. D. Nithya M.E., Ph.D., Associate Professor, CSE  
 **Institution:** Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore
