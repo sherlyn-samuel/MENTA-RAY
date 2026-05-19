@@ -1,32 +1,66 @@
 name: menta_ray
 description: "A new Flutter project."
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  dio: ^5.4.1
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.2.2
-
-linter:
-  rules:
-    - use_super_parameters
+  flutter_overlay_window: ^0.5.0
+  http: ^1.6.0
+  provider: ^6.1.2
+  audioplayers: ^5.2.1
+  flutter_dotenv: ^5.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   animate_do: ^4.2.0
-  flutter_lints: ^5.0.0 
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/images/tempwhale.jpeg
+    - assets/images/menu.png
+    - assets/images/Lobby_Level_final.png
+    - assets/images/Quest_Board.png
+    - assets/images/gamedemo.jpeg
+    - assets/images/mathbg.png
+    - assets/images/pixtemp.png
+    - assets/images/textbox.png
+    - assets\images\newislbg.jpeg
+    - assets\images\Login.png
+    - assets\images\Tutorial_UI_Ref.png
+    - assets\images\textbox.png
+    - assets\images\I.png
+    - assets\images\A.png
+    - assets\images\B.png
+    - assets\images\C.png
+    - assets\images\D.png
+    - assets\images\E.png
+    - assets\images\F.png
+    - assets\images\G.png
+    - assets\images\H.png
+    - assets\images\J.png
+    - assets\audio\bubble.mp3
+    - assets\audio\coin.mp3
+    - assets\audio\level complete.mp3
+    - assets\audio\notification.mp3
+    - assets\audio\water.mp3
+    - assets\images\leaderboardicon.png
+    - .env
+
+
+
   fonts:
     - family: Pixellari
       fonts:

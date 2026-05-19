@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/menta_ray.iml" filepath="$PROJECT_DIR$/menta_ray.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/menta_ray_android.iml" filepath="$PROJECT_DIR$/android/menta_ray_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Menta-ray-main.iml" filepath="$PROJECT_DIR$/.idea/Menta-ray-main.iml" />
     </modules>
   </component>
 </project>
