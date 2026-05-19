@@ -1,4 +1,4 @@
-# 🌊 Menta-Ray — Gamified 2D Learning Platform
+# 🐚 Menta-Ray — Gamified 2D Learning Platform
 
 > A Flutter-based gamified educational app for children featuring **Mathematical Quizzing** and **Indian Sign Language (ISL)** learning with **LLM (Gemini API)** integration.
 
