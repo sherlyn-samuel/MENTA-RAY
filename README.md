@@ -348,7 +348,6 @@ CREATE TABLE player_state (
 ## 👩‍💻 Team
 
 | Name | GitHub |
-|------|---------|--------|
 | Jeni Cyndrella Yazhini R | [@jeni](https://github.com/) |
 | Lakshika Mangai S | [@lakshika](https://github.com/) |
 | Sherlyn Samuel | [@sherlyn](https://github.com/) |
