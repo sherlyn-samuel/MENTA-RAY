@@ -26,7 +26,7 @@
 
 ---
 
-## 🫧 About the Project
+## [🫧 About the Project](#about-the-project)
 
 **Menta-Ray** transforms passive screen time into meaningful educational engagement for children under 12. Built with an underwater pixel-art theme, the platform combines:
 
