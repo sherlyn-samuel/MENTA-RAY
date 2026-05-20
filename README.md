@@ -13,8 +13,8 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Running the App](#running-the-app)
-- [Project Structure](#project-structure)
+  - [Running the App](#running)
+- [Project Structure](#project)
 - [Modules](#modules)
 - [Environment Variables](#environment-variables)
 - [Database Setup](#database-setup)
@@ -38,6 +38,7 @@
 This project was developed as a final-year B.E. Computer Science project at **Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore**.
 
 ---
+<a name="features"></a>
 
 ## 🪼 Features
 
@@ -51,7 +52,7 @@ This project was developed as a final-year B.E. Computer Science project at **Av
 - ⋆ Underwater 2D game world with mascot and quest board
 
 ---
-
+<a name="tech-stack"></a>
 ## 🪸 Tech Stack
 
 | Layer        | Technology                          |
@@ -66,6 +67,8 @@ This project was developed as a final-year B.E. Computer Science project at **Av
 | State Mgmt   | Provider (Flutter)                  |
 
 ---
+
+<a name="system-architecture"></a>
 
 ## ⛵ System Architecture
 
@@ -90,11 +93,11 @@ User Device (Android / Windows)
 ```
 
 ---
-
+<a name="getting-started"></a>
 ## 🗺️ Getting Started
 
 ### Prerequisites
-
+<a name="prerequisites"></a>
 Make sure you have the following installed:
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) (>= 3.x)
@@ -108,6 +111,7 @@ Make sure you have the following installed:
 ---
 
 ### Installation
+<a name="installation"></a>
 
 #### 1. Clone the Repository
 
@@ -150,6 +154,7 @@ SOURCE db/schema.sql;
 ---
 
 ### Running the App
+<a name="running"></a>
 
 #### Start the Backend (Spring Boot)
 
@@ -183,6 +188,7 @@ flutter run
 > List available devices: `flutter devices`
 
 ---
+<a name="project"></a>
 
 ## 🦪 Project Structure
 
@@ -231,6 +237,8 @@ menta-ray/
 
 ---
 
+<a name="modules"></a>
+
 ## 🦈 Modules
 
 ### Module 1 — User Interface
@@ -259,7 +267,7 @@ menta-ray/
 - Dataset: 35 directories, ~42.7k images
 
 ---
-
+<a name="environment-variables"></a>
 ## ⚓ Environment Variables
 
 Create a `.env` file (or set in `application.properties`):
@@ -284,6 +292,7 @@ const String baseUrl = "http://localhost:8080"; // Desktop
 ```
 
 ---
+<a name="database-setup"></a>
 
 ## 🐳 Database Setup
 
@@ -317,8 +326,9 @@ CREATE TABLE player_state (
 ```
 
 ---
-
+<a name="api-endpoints"></a>
 ## 🪸 API Endpoints
+
 
 | Method | Endpoint                  | Description                  |
 |--------|---------------------------|------------------------------|
@@ -331,7 +341,7 @@ CREATE TABLE player_state (
 | GET    | `/api/leaderboard`        | Get top 10 leaderboard       |
 
 ---
-
+<a name="screenshots"></a>
 ## 📸 Screenshots
 
 | Login | Quest Board |
@@ -344,6 +354,7 @@ CREATE TABLE player_state (
 
 
 ---
+<a name="team"></a>
 ## 🐙 Team
 
 | Name | GitHub Profile | Role / Focus |
@@ -357,7 +368,7 @@ CREATE TABLE player_state (
 **Institution:** Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore
 
 ---
-
+<a name="publication"></a>
 ## 🏅 Publication
 
 **"Redesigning Digital Habits in Early Adolescents through Gamification"**  
@@ -365,7 +376,7 @@ CREATE TABLE player_state (
 🥇 **Won Best Paper Presentation Award (UG Category)**
 
 ---
-
+<a name="license"></a>
 ## 📄 License
 
 This project is submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Computer Science and Engineering. All rights reserved © 2026.
