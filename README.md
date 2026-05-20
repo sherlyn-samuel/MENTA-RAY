@@ -344,16 +344,16 @@ CREATE TABLE player_state (
 
 
 ---
-
 ## 🐙 Team
 
-| Name | GitHub |
-| Jeni Cyndrella Yazhini R | [@jeni](https://github.com/) |
-| Lakshika Mangai S | [@lakshika](https://github.com/) |
-| Sherlyn Samuel | [@sherlyn](https://github.com/) |
-| Vibhasha R | [@vibhasha](https://github.com/) |
+| Name | GitHub Profile | Role / Focus |
+| :--- | :--- | :--- |
+| **Jeni Cyndrella Yazhini R** | [@jeni](https://github.com/) | LLM Integration and Database |
+| **Lakshika Mangai S** | [@lakshika](https://github.com/Lakshika-mangai) | Spring Boot & SQL  |
+| **Sherlyn Samuel** | [@sherlyn-samuel](https://github.com/sherlyn-samuel) | Frontend flutter & SQL |
+| **Vibhasha R** | [@vibhasha](https://github.com/vibhasharg) | Design & Game Mechanics |
 
-**Guide:** Dr. D. Nithya M.E., Ph.D., Associate Professor, CSE  
+**Project Guide:** Dr. D. Nithya M.E., Ph.D., Associate Professor, CSE  
 **Institution:** Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore
 
 ---
