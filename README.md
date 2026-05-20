@@ -7,6 +7,7 @@
 ## 📖 Table of Contents
 
 - [About the Project](#about)
+- [Publication](#-publication)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [System Architecture](#system-architecture)
@@ -38,6 +39,14 @@
 This project was developed as a final-year B.E. Computer Science project at **Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore**.
 
 ---
+<a name="publication"></a>
+## 🏅 Publication
+
+**"Redesigning Digital Habits in Early Adolescents through Gamification"**  
+*Second International Conference on Engineering, Science and Management (ICESM-2026)*  
+🥇 **Won Best Paper Presentation Award (UG Category)**
+
+--- 
 <a name="features"></a>
 
 ## 🪼 Features
@@ -116,7 +125,7 @@ Make sure you have the following installed:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/menta-ray.git
+git clone https://github.com/sherlyn-samuel/menta-ray.git
 cd menta-ray
 ```
 
@@ -346,11 +355,11 @@ CREATE TABLE player_state (
 
 | Login | Quest Board |
 |-------|-------------|
-| ![Login](assets/screenshots/login.png) | ![Quest](assets/screenshots/quest.png) |
+| ![Login](assets/screenshots/login-screen.jpg) | ![Quest](assets/screenshots/quest-board.jpg) |
 
 | Math Quiz | ISL Module |
 |-----------|------------|
-| ![Math](assets/screenshots/math.png) | ![ISL](assets/screenshots/isl.png) |
+| ![Math](assets/screenshots/math-screen.jpg) | ![ISL](assets/screenshots/isl-screen.jpg) |
 
 
 ---
@@ -366,14 +375,6 @@ CREATE TABLE player_state (
 
 **Project Guide:** Dr. D. Nithya M.E., Ph.D., Associate Professor, CSE  
 **Institution:** Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore
-
----
-<a name="publication"></a>
-## 🏅 Publication
-
-**"Redesigning Digital Habits in Early Adolescents through Gamification"**  
-*Second International Conference on Engineering, Science and Management (ICESM-2026)*  
-🥇 **Won Best Paper Presentation Award (UG Category)**
 
 ---
 <a name="license"></a>
