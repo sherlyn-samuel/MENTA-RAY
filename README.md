@@ -26,7 +26,7 @@
 
 ---
 
-## 🎯 About the Project
+## 🫧 About the Project
 
 **Menta-Ray** transforms passive screen time into meaningful educational engagement for children under 12. Built with an underwater pixel-art theme, the platform combines:
 
@@ -184,7 +184,7 @@ flutter run
 
 ---
 
-## 📁 Project Structure
+## 🦪 Project Structure
 
 ```
 menta-ray/
@@ -231,7 +231,7 @@ menta-ray/
 
 ---
 
-## 📦 Modules
+## 🦈 Modules
 
 ### Module 1 — User Interface
 - Pixel-art login and signup screens
@@ -260,7 +260,7 @@ menta-ray/
 
 ---
 
-## 🔑 Environment Variables
+## ⚓ Environment Variables
 
 Create a `.env` file (or set in `application.properties`):
 
@@ -285,7 +285,7 @@ const String baseUrl = "http://localhost:8080"; // Desktop
 
 ---
 
-## 🗄 Database Setup
+## 🐳 Database Setup
 
 ```sql
 CREATE TABLE users (
@@ -345,7 +345,7 @@ CREATE TABLE player_state (
 
 ---
 
-## 👩‍💻 Team
+## 🐙 Team
 
 | Name | GitHub |
 | Jeni Cyndrella Yazhini R | [@jeni](https://github.com/) |
