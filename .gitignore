@@ -26,4 +26,5 @@ build/
 *.obj
 *.dill
 *.env 
+*.log
 

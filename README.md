@@ -42,14 +42,14 @@ This project was developed as a final-year B.E. Computer Science project at **Av
 
 ## 🪼 Features
 
-- ⋆ JWT-based secure authentication (Login / Signup)
-- ⋆ Math module with Easy / Medium / Hard difficulty levels
-- ⋆ ISL alphabet learning with animated pixel-art hand signs
-- ⋆ LLM-powered dynamic question generation via Gemini API
-- ⋆ Offline fallback with local question banks
-- ⋆ Leaderboard and progress tracking
-- ⋆ Parent/teacher analytics dashboard
-- ⋆ Underwater 2D game world with mascot and quest board
+-  JWT-based secure authentication (Login / Signup)
+-  Math module with Easy / Medium / Hard difficulty levels
+-  ISL alphabet learning with animated pixel-art hand signs
+-  LLM-powered dynamic question generation via Gemini API
+-  Offline fallback with local question banks
+-  Leaderboard and progress tracking
+-  Parent/teacher analytics dashboard
+-  Underwater 2D game world with mascot and quest board
 
 ---
 <a name="tech-stack"></a>
