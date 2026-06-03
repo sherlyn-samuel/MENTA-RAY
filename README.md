@@ -368,7 +368,7 @@ CREATE TABLE player_state (
 
 | Name | GitHub Profile | Role / Focus |
 | :--- | :--- | :--- |
-| **Jeni Cyndrella Yazhini R** | [@jeni](https://github.com/) | LLM Integration and Database |
+| **Jeni Cyndrella Yazhini R** | [@jeni](https://github.com/jencoree) | LLM Integration and Database |
 | **Lakshika Mangai S** | [@lakshika](https://github.com/Lakshika-mangai) | Spring Boot & SQL  |
 | **Sherlyn Samuel** | [@sherlyn-samuel](https://github.com/sherlyn-samuel) | Flame engine direction and Database integration  |
 | **Vibhasha R** | [@vibhasha](https://github.com/vibhasharg) | Design & Game Mechanics |
