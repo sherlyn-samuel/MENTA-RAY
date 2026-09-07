@@ -21,8 +21,7 @@ public class PlayerEntity {
     @Column(name = "leaderboard_rank", nullable = false)
     private int leaderboardRank;
 
-    @Column(name = "pearl_count", nullable = false)
-    private int pearlCount;
+
 
     @JsonIgnore
     @OneToMany(mappedBy = "player", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
@@ -37,8 +36,7 @@ public class PlayerEntity {
     public void setProgress(int progress) { this.progress = progress; }
     public int getLeaderboardRank() { return leaderboardRank; }
     public void setLeaderboardRank(int leaderboardRank) { this.leaderboardRank = leaderboardRank; }
-    public int getPearlCount() { return pearlCount; }
-    public void setPearlCount(int pearlCount) { this.pearlCount = pearlCount; }
+
     public List<ProgressEntity> getProgressList() { return progressList; }
     public void setProgressList(List<ProgressEntity> progressList) { this.progressList = progressList; }
 }

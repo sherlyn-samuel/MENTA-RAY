@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface PlayerRepository extends JpaRepository<PlayerEntity, Long> {
 
-    // Find Player by Email (Optional Method for Custom Queries)
+
     PlayerEntity findByEmail(String email);
 }
 

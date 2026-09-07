@@ -2,7 +2,10 @@ package com.Project.Menta_Ray.controller;
 
 import com.Project.Menta_Ray.dto.ApiResponse;
 import com.Project.Menta_Ray.entity.ProgressEntity;
+import com.Project.Menta_Ray.repository.ProgressRepository;
 import com.Project.Menta_Ray.service.ProgressService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -16,6 +19,9 @@ import java.util.Optional;
 public class ProgressController {
 
     private final ProgressService progressService;
+
+    @Autowired
+    private ProgressRepository progressRepository;
 
     public ProgressController(ProgressService progressService) {
         this.progressService = progressService;
@@ -67,6 +73,15 @@ public class ProgressController {
         progressService.deleteProgress(id);
         return ResponseEntity.ok(
                 new ApiResponse<>(true, "Progress deleted successfully", null, HttpStatus.OK.value())
+        );
+    }
+
+    @GetMapping("/leaderboard")
+    public ResponseEntity<ApiResponse<List<ProgressEntity>>> getLeaderboard() {
+        List<ProgressEntity> leaderboard = progressRepository
+                .findTop5ByOrderByMathProgressDesc(PageRequest.of(0, 7));
+        return ResponseEntity.ok(
+                new ApiResponse<>(true, "Success", leaderboard, HttpStatus.OK.value())
         );
     }
 }

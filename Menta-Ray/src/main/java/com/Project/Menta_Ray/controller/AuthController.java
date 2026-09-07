@@ -48,7 +48,9 @@ public class AuthController {
         }
 
         String token = jwtUtil.generateToken(user.getUsername());
-        Map<String, String> tokenData = Collections.singletonMap("token", token);
+        Map<String, String> tokenData = new java.util.HashMap<>();
+        tokenData.put("token", token);
+        tokenData.put("email", user.getEmail());
 
         return ResponseEntity.ok(
                 new ApiResponse<>(true, "Login successful", tokenData, HttpStatus.OK.value())
