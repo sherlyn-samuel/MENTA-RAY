@@ -374,7 +374,7 @@ CREATE TABLE player_state (
 | **Vibhasha R** | [@vibhasha](https://github.com/vibhasharg) | Design & Game Mechanics |
 
 **Project Guide:** Dr. D. Nithya M.E., Ph.D., Associate Professor, CSE  
-**Institution:** Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore
+**Institution:** Avinashilingam Institute for Home Science and Higher Education for Women, Coimbatore.
 
 ---
 <a name="license"></a>
