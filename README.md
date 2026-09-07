@@ -364,7 +364,7 @@ CREATE TABLE player_state (
 
 ---
 <a name="team"></a>
-## 🐙 Team
+## 🐙 Team Members
 
 | Name | GitHub Profile | Role / Focus |
 | :--- | :--- | :--- |
