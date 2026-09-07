@@ -379,7 +379,6 @@ CREATE TABLE player_state (
 ---
 <a name="license"></a>
 
-
 ## 📄 License
 
 This project is submitted in partial fulfilment of the requirements for the degree of Bachelor of Engineering in Computer Science and Engineering. All rights reserved © 2026.
